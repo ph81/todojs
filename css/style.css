@@ -1,0 +1,95 @@
+body, html {
+  
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0060be; 
+    font-family: 'Inconsolata', monospace;
+  }
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #cfcbcc;
+}
+
+input {
+  border: none;
+  display: block;
+  width: 98%;
+  line-height: 1.5;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #cfcbcc;
+
+  outline: 0;
+}
+
+h1 {
+  font-family: 'Press Start 2P';
+  color: #0060be;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  color: #899098;
+  font-weight: 400;
+  border-bottom: 1px solid #cfcbcc;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+
+ul li:before {
+  content: "\25A1";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+ul li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+
+.checked {
+  color: green;
+}
+
+.checked:before {
+  content: "\2713";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.checked:hover {
+  text-decoration: none;
+}
+
+.checked:hover:after {
+  content: "\274C";
+  color: tomato;
+  text-align: right;
+}
